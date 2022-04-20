@@ -1,0 +1,43 @@
+html,body{
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #83D0E4;
+    font-family: 'Inter', sans-serif;
+}
+.big-wrapper{
+    color: #264B67;
+    background-color: #F0FCFF;
+}
+.big-wrapper .text{
+    border-bottom: 1px solid darkgray;
+
+}
+.big-wrapper .text .head{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.big-wrapper .my-check{
+    display: inline;
+}
+.big-wrapper .text .para{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.big-wrapper textarea{
+    height: 150px;
+}
+@media only screen and (min-width:360px) and (max-width:768px){
+    html,body{
+        font-size: 14px;
+    }
+    .big-wrapper .text .head{
+        font-size: 1.8rem;
+
+    }
+    .big-wrapper .my-check{
+        display: block;
+    }
+    .big-wrapper textarea{
+        height: 100px;
+    }
+}
